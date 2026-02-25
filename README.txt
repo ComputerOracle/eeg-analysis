@@ -1,18 +1,25 @@
-This code folder contains read_data() and save_data() versions in IDL, Matlab
-and python. These can be used to read (and write) data in the .svd file format
-that the Advanced MRI section uses to store most of its data.
+# EEG Analysis Project
 
-It could be that certain dependent files are missing. If so, please email me so
-that I can upload missing routines.
+This project contains my beginner exploration of EEG brain data analysis using Python and MNE.
 
-All of this code can be freely copied and reused, but the original header should
-remain included.
+## What I did
+1. Plotted raw EEG brain signals to understand how brain waves look over time.
+2. Computed basic brain wave power (delta, theta, alpha, beta bands).
+3. Visualized how brain activity changes across time.
 
-If you happen to develop a reader (or writer) for .svd for software other than
-what is presented here, please let me know so that I can include a link here
-(or a copy, if you prefer).
+## Goal
+The goal of this project is to understand EEG data step by step and learn how brain signals can be analyzed using code.
 
-Bug reports would also be greatly appreciated.
+## Dataset
+The original EEG dataset is large and is not included in this repository.  
+To run the notebooks, place your EEG files inside the `data_samples/` folder.
 
-Jacco de Zwart, Jacco.deZwart@nih.gov
-October 24, 2024
+## Tools Used
+- Python
+- MNE-Python
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+## Notes
+This is a learning project focused on understanding the basics of brain signal analysis and building practical experience with real neuro data.
